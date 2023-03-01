@@ -1,14 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-// const initialState = JSON.parse(localStorage.getItem("tasks") || "[]");
-    // const initialState = localStorage.getItem("tasks") ? JSON.parse(localStorage.getItem("tasks") || "[]") : [];
-
-// [
-//      {title: asd, description: qwerrt, status: false},
-//      {title: asd, description: qwerrt, status: false},
-//      {title: asd, description: qwerrt, status: false},
-// ]
-
 export const tasksSlice = createSlice({
     name: "tasks",
     initialState: JSON.parse(localStorage.getItem("tasks") || "[]"),

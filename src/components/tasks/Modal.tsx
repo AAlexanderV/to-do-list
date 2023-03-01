@@ -27,6 +27,7 @@ function Modal({
         <div className="modal_main">
           <h2>Description:</h2>
           <p>{task.description}</p>
+
           <div className="modal_status">
             <p>Status: </p>
             <input
