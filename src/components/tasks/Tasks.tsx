@@ -10,10 +10,10 @@ function Tasks() {
   return (
     <div className="Tasks">
       <header>
-        <h1 className="header_id">ID</h1>
-        <h1 className="header_title">Title</h1>
-        <h1 className="header_description">Description</h1>
-        <h1 className="header_status">Status</h1>
+        <h2 className="header_id">ID</h2>
+        <h2 className="header_title">Title</h2>
+        <h2 className="header_description">Description</h2>
+        <h2 className="header_status">Status</h2>
       </header>
       <div className="tasks_list">
         {tasks.map((task: Itask, index: number) => (
